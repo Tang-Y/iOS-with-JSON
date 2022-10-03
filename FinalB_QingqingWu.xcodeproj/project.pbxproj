@@ -7,15 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C11F90842767974C0002FAE4 /* city.json in Resources */ = {isa = PBXBuildFile; fileRef = C11F90832767974C0002FAE4 /* city.json */; };
 		C1CEB09B276789E100459A74 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1CEB09A276789E100459A74 /* AppDelegate.swift */; };
 		C1CEB09D276789E100459A74 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1CEB09C276789E100459A74 /* SceneDelegate.swift */; };
 		C1CEB09F276789E100459A74 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1CEB09E276789E100459A74 /* ContentView.swift */; };
 		C1CEB0A1276789E200459A74 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C1CEB0A0276789E200459A74 /* Assets.xcassets */; };
 		C1CEB0A4276789E200459A74 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C1CEB0A3276789E200459A74 /* Preview Assets.xcassets */; };
 		C1CEB0A7276789E200459A74 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C1CEB0A5276789E200459A74 /* LaunchScreen.storyboard */; };
+		C1CEB0B327678A3E00459A74 /* City.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1CEB0B227678A3E00459A74 /* City.swift */; };
+		C1CEB0B727678B6D00459A74 /* CityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1CEB0B627678B6D00459A74 /* CityView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C11F90832767974C0002FAE4 /* city.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = city.json; sourceTree = "<group>"; };
 		C1CEB097276789E100459A74 /* FinalB_QingqingWu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FinalB_QingqingWu.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C1CEB09A276789E100459A74 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C1CEB09C276789E100459A74 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +28,8 @@
 		C1CEB0A3276789E200459A74 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		C1CEB0A6276789E200459A74 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C1CEB0A8276789E200459A74 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C1CEB0B227678A3E00459A74 /* City.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = City.swift; sourceTree = "<group>"; };
+		C1CEB0B627678B6D00459A74 /* CityView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +62,9 @@
 		C1CEB099276789E100459A74 /* FinalB_QingqingWu */ = {
 			isa = PBXGroup;
 			children = (
+				C11F90832767974C0002FAE4 /* city.json */,
+				C1CEB0B227678A3E00459A74 /* City.swift */,
+				C1CEB0B627678B6D00459A74 /* CityView.swift */,
 				C1CEB09A276789E100459A74 /* AppDelegate.swift */,
 				C1CEB09C276789E100459A74 /* SceneDelegate.swift */,
 				C1CEB09E276789E100459A74 /* ContentView.swift */,
@@ -134,6 +143,7 @@
 			files = (
 				C1CEB0A7276789E200459A74 /* LaunchScreen.storyboard in Resources */,
 				C1CEB0A4276789E200459A74 /* Preview Assets.xcassets in Resources */,
+				C11F90842767974C0002FAE4 /* city.json in Resources */,
 				C1CEB0A1276789E200459A74 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -146,7 +156,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				C1CEB09B276789E100459A74 /* AppDelegate.swift in Sources */,
+				C1CEB0B727678B6D00459A74 /* CityView.swift in Sources */,
 				C1CEB09D276789E100459A74 /* SceneDelegate.swift in Sources */,
+				C1CEB0B327678A3E00459A74 /* City.swift in Sources */,
 				C1CEB09F276789E100459A74 /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
